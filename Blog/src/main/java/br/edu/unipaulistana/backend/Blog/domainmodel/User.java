@@ -17,12 +17,5 @@ public class User {
     private @Getter @Setter List<Role> roles;
     private @Getter @Setter String profile;
 
-    public User(long id , String name , String email , String password ,String profile ,String roles) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.password = password;
-        this.roles = new ArrayList<>();
-        this.profile = profile;
-    }
+
 }
