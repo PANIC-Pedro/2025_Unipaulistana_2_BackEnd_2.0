@@ -4,13 +4,14 @@ import lombok.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
 public class User {
 
-    private @Getter @Setter long id;
+    private @Getter @Setter UUID id;
     private @Getter @Setter String name;
     private @Getter @Setter String email;
     private @Getter @Setter String password;
